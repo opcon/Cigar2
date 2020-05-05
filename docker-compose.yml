@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  cigar2:
+    build:
+      context: ./app
+    ports:
+      - 3000:3000
